@@ -381,7 +381,7 @@ footer {
   font-size: 1.5rem;
 }
 
-/* contact  */
+/* contact Section */
 /* Head/Hello  */
 .hello {
   min-height: 450px;
@@ -417,7 +417,7 @@ footer {
 }
 
 .contact-content {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   column-gap: 2rem;
   max-width: 80%;
@@ -605,13 +605,13 @@ form {
 
   .address {
     position: absolute;
-    top: -40%;
-    left: 5%;
-    width: 90%;
-    height: 400px;
+    top: 10%;
+    width: 50%;
+    height: 380px;
   }
 
   .contact-footer {
+
     display: none;
   }
 
@@ -689,7 +689,7 @@ form {
     margin: 0;
   }
 
-  .active-nav-link {
+  .contact-link {
   background-color: #EBEBEB; 
   }
 
